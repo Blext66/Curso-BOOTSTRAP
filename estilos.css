@@ -24,6 +24,20 @@ h1 {
   font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-oscura {
+  color: white;
+  background-color: black;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
 
 /*Seccion Hero*/
 
@@ -47,6 +61,17 @@ h1 {
 .hero-principal h2 {
   font-size: 1.5rem;
   color: #516161;
+}
+
+/*Sobre mí*/
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
 }
 
 /* Adaptable (Responsivo) */
